@@ -1,0 +1,16 @@
+.xans-layout-referencecurrencylist.list { position:absolute; top:7px; right:0; z-index:10; height:30px; border-radius: 3px; border: solid 1px #d6dae1;}
+.xans-layout-referencecurrencylist.list.show { border: 2px solid #101010; }
+.xans-layout-referencecurrencylist.list .toggle { width:100%; height:100%; padding: 0 0 0 3px; font-size:12px; background:#fff; }
+.xans-layout-referencecurrencylist.list .toggle:after{ display:none; position:absolute; content:''; width:calc(100% - 2px); height:calc(100% - 2px); top: -1px; left:-1px; right:0; bottom:0;}
+.xans-layout-referencecurrencylist.list.show .toggle:after{ display:block; border:2px solid #333;}
+.xans-layout-referencecurrencylist.list .toggle .currencyNow { padding:0 22px 0 5px; background: no-repeat right -2px top 4px url("//img.echosting.cafe24.com/skin/base/layout/ico_multishop1.png"); }
+.xans-layout-referencecurrencylist.list .toggle .btn-global {padding:3px 0 0 24px; background:url("//img.echosting.cafe24.com/skin/base/layout/ico_global.png") no-repeat; }
+
+.xans-layout-referencecurrencylist.list > ul { display:none; position:absolute; right:-1px; top:31px; overflow-x:hidden; width:100%; height:130px; border:1px solid #767676; background:#fff; }
+.xans-layout-referencecurrencylist.list > ul li { position:relative; height:26px; width:100%; background: none; line-height:28px; }
+.xans-layout-referencecurrencylist.list > ul li a { display:block; overflow:hidden; padding:0 62px 0 0; color:#353535; white-space:nowrap; text-decoration:none; text-overflow:ellipsis;  }
+.xans-layout-referencecurrencylist.list > ul li.selected { background:#f9f9ff; }
+.xans-layout-referencecurrencylist.list > ul li a .name strong { font-weight:normal; }
+.xans-layout-referencecurrencylist.list > ul li a .unit {margin-left:2px; font-size:11px; color:#757575; }
+.xans-layout-referencecurrencylist.list.show > ul { display:block; }
+.xans-layout-referencecurrencylist.list > ul li:hover { background: #f9f9ff; }

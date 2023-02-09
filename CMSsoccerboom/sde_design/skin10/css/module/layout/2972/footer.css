@@ -1,0 +1,12 @@
+.xans-layout-footer { overflow:hidden; height:176px; }
+.xans-layout-footer:after { content:""; display:block; clear:both; }
+.xans-layout-footer .utilMenu { float:left; width:200px; margin:20px 0 0; }
+.xans-layout-footer .utilMenu h2, .xans-layout-footer .address h2 { margin:0 0 5px; font-size:12px; color:#000; }
+.xans-layout-footer .utilMenu li {  line-height:18px; }
+.xans-layout-footer .utilMenu li a { color:#757575; }
+.xans-layout-footer .address { float:left;margin:20px 0 0; color:#757575; line-height:18px; }
+.xans-layout-footer .address span { padding:0 25px 0 0; }
+.xans-layout-footer .address span a { color:#757575; }
+.xans-layout-footer .copyright { position:absolute; left:204px; bottom:0; height:32px; color:#ededed; font-size:11px; line-height:32px; }
+.xans-layout-footer .pageTop { position:absolute; right:0; top:10px; }
+.xans-layout-footer .hosting { position:absolute; right:0; top:77px; }

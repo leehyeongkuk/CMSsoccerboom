@@ -1,0 +1,39 @@
+/* ************************************** *
+ * NotoSansKR
+ * ************************************** */
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/ind-script/admin/font/NotoSansKR-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('/ind-script/admin/font/NotoSansKR-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/ind-script/admin/font/NotoSansKR-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('/ind-script/admin/font/NotoSansKR-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/ind-script/admin/font/NotoSansKR-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('/ind-script/admin/font/NotoSansKR-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.productDetailPopup { display:none; overflow-y:auto; position:fixed; top:0; left:0; height:100%; background:#fff; z-index:120; }
+.productDetailPopup h2 { height:38px; line-height:38px; text-align:center; font-size:15px; color:#fff; background:#4b5165; }
+.productDetailPopup .btnClose { position:absolute; top:0; right:0; text-indent:-9999em; }
+.productDetailPopup .btnClose:before { content:''; display:inline-block; position:absolute; top:17px; right:15px; width:18px; height: 2px; border-radius:2px; background:#fff; transform:rotate(45deg); }
+.productDetailPopup .btnClose:after { content:''; display:inline-block; position:absolute; top:17px; right:15px; width:18px; height: 2px; border-radius:2px; background:#fff; transform:rotate(-45deg); }
+.productDetailInfo { font-family:'NotoSansKR',"맑은 고딕",Malgun Gothic,AppleSDGothicNeo,"돋움",Dotum,sans-serif; font-weight: 400; background-color:#fff !important; }
+.productDetailInfo .header { padding:0!important; background-color:#fff !important; border-bottom:1px solid #D7D7D7; }
+.productDetailInfo .header h1 { width: auto; height: auto; background: initial; line-height:61px !important; font-size:20px !important; font-weight: 500; text-align: center; color:#000; margin:0; width: auto; height: auto; }
+.productDetailInfo h2.title { padding: 0 16px; margin:20px 0 10px 0; line-height: 43px; font-size: 18px; font-weight: 400; color: #000; background:#fff; }
+.productDetailInfo img { max-width:100%; }
+.productDetailInfo .content { padding:0 !important; }
+.productDetailInfo #prdDetailContent p { font-size:13px; margin:0; padding:0 16px; color:#383838;}
+.productDetailInfo .btnClose { position: absolute; top: 36px !important; right: 16px !important; margin: -14px 0 0;  display: block; width: 16px !important; height: 16px !important; text-indent: 150%; font-size: 0; line-height: 0; white-space: nowrap; border:0; background: url(//img.echosting.cafe24.com/skin/mobile/order/btn_close.png) no-repeat center center !important; background-size: 21px 21px !important; filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(340deg) brightness(0%) contrast(106%); cursor:pointer; }

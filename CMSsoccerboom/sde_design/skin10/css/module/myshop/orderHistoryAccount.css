@@ -1,0 +1,17 @@
+#popup { width:600px; min-height: 360px; }
+.xans-myshop-orderhistoryaccount .ec-base-button { margin:20px -20px; }
+.xans-myshop-orderhistoryaccount #acc_no { width:230px; }
+.xans-myshop-orderhistoryaccount #acc_bank { width:300px; }
+
+.xans-myshop-orderhistoryaccount .wrap .ec-base-button { border-top:0; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn { width:100%; position:relative; display:inline-block; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-single {  text-decoration:none; display:block; height:28px; line-height:28px; padding:0 0 0 8px; border:1px solid #d5d5d5; box-sizing:border-box; background: url("//img.echosting.cafe24.com/skin/base/layout/ico_multishop1.png") no-repeat 100% 10px; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .span { display:block; overflow:hidden; margin-right:20px; white-space:nowrap; text-overflow:ellipsis; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-drop { display:none; position:absolute; top:100%; left:0; right:0; border:1px solid #d5d5d5; border-top:0; border-radius:0 0 4px 4px; background-color:#fff; z-index: 10; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn.chzn-with-drop .chzn-drop {  display:block;  }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-search { position:relative; margin: 6px; padding:0 8px; box-sizing:border-box; white-space:nowrap; border: 1px solid #d5d5d5;  }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-search input { width:100%; height:24px; padding: 0 20px 0 0; outline:0; border:0; box-sizing:border-box; font-size:12px; background:#fff url('//img.echosting.cafe24.com/ec/v2/bg_chzn_searchform.png') no-repeat right 44%; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-results { position:relative; overflow-x:hidden; overflow-y:auto; max-height:200px; margin:4px 0 5px;  }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-results .active-result { display:block; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-results li { margin:0; padding:0 8px; user-select:none; display:none; }
+.xans-myshop-orderhistoryaccount #acc_bank_chzn .chzn-results li.highlighted { background:#767676; color:#fff; }

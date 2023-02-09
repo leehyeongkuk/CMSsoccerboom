@@ -1,0 +1,71 @@
+<!--@layout(/layout/basic/popup.html)-->
+<div module="Order_deferedpaymentguide" class="ec-base-layer">
+  <!--@css(/css/module/order/deferedpaymentguide.css)-->
+  <div class="header">
+    <h1><span class="{$calculation_org_title_display|display}">결제 수수료 확인</span></h1>
+  </div>
+  <div class="content">
+    <div class="ec-base-help">
+      <h2><span class="{$calculation_org_title_display|display}">결제 수수료 확인 유의사항 </span></h2>
+      <div class="inner">
+        <ul>
+          <li>결제 수수료 계산 기준은 {$calculation_standard_title}입니다. ({$calculation_standard_comment})</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ec-base-table">
+      <table border="1" summary="">
+        <caption>결제 수수료 확인</caption>
+        <colgroup>
+          <col style="width:160px;" />
+          <col style="width:auto;" />
+        </colgroup>
+        <tbody>
+        <tr>
+          <th scope="row">결제 수수료</th>
+          <td>
+            <span id="ec-order-company">{$shipping_company_select}</span>
+            <div class="ec-base-table typeList">
+              <table border="1" summary="">
+                <caption>결제 수수료</caption>
+                <colgroup>
+                  <col style="width:58px;" />
+                  <col style="width:auto;" />
+                  <col style="width:230px;" />
+                </colgroup>
+                <tbody class="head">
+                <tr>
+                  <td scope="col">번호</td>
+                  <td scope="col">범위</td>
+                  <td scope="col">수수료</td>
+                </tr>
+                </tbody>
+              </table>
+              <div class="scroll">
+                <table border="1" summary="">
+                  <caption>결제 수수료</caption>
+                  <colgroup>
+                    <col style="width:58px;" />
+                    <col style="width:auto;" />
+                    <col style="width:213px;" />
+                  </colgroup>
+                  <tbody  module="Order_CommissionList" class="center">
+                  <tr>
+                    <td>{$idx}</td>
+                    <td>{$min_amount} 이상 ~ {$max_amount} 미만</td>
+                    <td>{$payment_commission} {$payment_commission_ref_price}</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="ec-base-button">
+    <a href="#none" class="btnNormalFix sizeS" onclick="window.close()">닫기</a>
+  </div>
+</div>

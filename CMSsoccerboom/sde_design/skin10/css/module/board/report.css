@@ -1,0 +1,9 @@
+.boardReport { position:fixed; top:50%; left:50%; z-index:1000; width:450px; margin:-151px 0 0 -225px; }
+.boardReport .ec-base-button { margin-bottom:0; }
+.boardReport .box { margin:17px 0 10px 0; padding:15px 10px; border:1px solid #d9dadc; }
+.boardReport .box .selectBox ul { display:flex; flex-wrap:wrap; }
+.boardReport .box .selectBox ul li { width:100px; margin:0 20px 0 0; }
+.boardReport .box .selectBox ul li:first-child { padding:0 0 15px 0; }
+.boardReport .box .selectBox ul li .radio { margin:0 5px 0 0; }
+
+.xans-board-read .ec-base-button.report-button { margin:0; }

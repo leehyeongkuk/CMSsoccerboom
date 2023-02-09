@@ -1,0 +1,6 @@
+.xans-product-recentlist table td.product strong { display:block; color:#008bcc; }
+.xans-product-recentlist table td.image img { max-width:78px; border:1px solid #d6d6d6; }
+.xans-product-recentlist table td .xans-product-setproduct { margin:5px 0 0; }
+.xans-product-recentlist table td .xans-product-setproduct li { margin:2px 0 0; color:#757575; }
+.xans-product-recentlist table td .mileage { display: block; }
+.xans-product-recentlist table td.button a { width:100px; margin:1px 0; }
